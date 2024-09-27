@@ -1,0 +1,89 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: #f8f8f8;
+}
+
+.search-bar {
+  padding: 0.5rem;
+  margin: 0 1rem;
+}
+
+.hero-image img {
+  width: 100%;
+  height: auto;
+}
+
+.article-list, .tutorial-list {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 30%;
+  padding: 1rem;
+  margin: 1rem 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.card-footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer {
+  background-color: #f8f8f8;
+  padding: 2rem 1rem;
+  text-align: center;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 2rem;
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links h3 {
+  margin-bottom: 0.5rem;
+}
+
+.subscribe-section {
+  margin-bottom: 2rem;
+}
+
+.subscribe-section input {
+  padding: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+.social-icons i {
+  margin: 0 0.5rem;
+  font-size: 1.5rem;
+}
+
+.view-all {
+  margin: 1rem auto;
+  display: block;
+  padding: 0.5rem 1rem;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.legal {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  padding: 0;
+}
